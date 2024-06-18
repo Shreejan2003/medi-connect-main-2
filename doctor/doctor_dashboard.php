@@ -53,7 +53,7 @@
 
                 <div class="text logo-text">
                     <span class="name">Mediconnect</span>
-                    <span class="profession">Admin Dashboard</span>
+                    <span class="profession">Doctor Dashboard</span>
                 </div>
             </div>
 
@@ -77,6 +77,7 @@
                         </a>
                     </li>
 
+                    <!--
                     <li class="nav-link" data-tab="medical-records">
                         <a href="#">
                             <i class="bx bx-pie-chart-alt icon"></i>
@@ -90,6 +91,7 @@
                             <span class="text nav-text">???</span>
                         </a>
                     </li>
+                    -->
                 </ul>
             </div>
 
@@ -204,13 +206,17 @@
             </div>
         </div>
 
+        <!--
         <div class="tab-content" id="medical-records">
             <div class="text">Medical Records Content</div>
         </div>
+        -->
 
+        <!--
         <div class="tab-content" id="doctor-prescriptions">
             <div class="text">Doctor Prescriptions Content</div>
         </div>
+        -->
     </section>
 
     <script src="/medi-connect-main-2/js/script.js"></script>

@@ -54,12 +54,14 @@
                         </a>
                     </li>
 
+                    <!--
                     <li class="nav-link" data-tab="doctor-prescriptions">
                         <a href="#">
                             <i class="bx bx-heart icon"></i>
                             <span class="text nav-text">Doctor Prescriptions</span>
                         </a>
                     </li>
+                    -->
                 </ul>
             </div>
 
@@ -228,9 +230,11 @@
             </div>
         </div>
 
+        <!--
         <div class="tab-content" id="doctor-prescriptions">
             <div class="text">Doctor Prescriptions Content</div>
         </div>
+        -->
 
     </section>
 

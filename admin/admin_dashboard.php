@@ -66,17 +66,18 @@
                     <li class="nav-link active" data-tab="dashboard">
                         <a href="#">
                             <i class="bx bx-home-alt icon"></i>
-                            <span class="text nav-text">Doctor's List</span>
+                            <span class="text nav-text">Add Doctor</span>
                         </a>
                     </li>
 
                     <li class="nav-link" data-tab="appointment">
                         <a href="#">
                             <i class="bx bx-bar-chart-alt-2 icon"></i>
-                            <span class="text nav-text">Add Doctor</span>
+                            <span class="text nav-text">Doctor's List</span>
                         </a>
                     </li>
 
+                    <!--
                     <li class="nav-link" data-tab="medical-records">
                         <a href="#">
                             <i class="bx bx-pie-chart-alt icon"></i>
@@ -90,6 +91,7 @@
                             <span class="text nav-text">???</span>
                         </a>
                     </li>
+                    -->
                 </ul>
             </div>
 
@@ -198,6 +200,7 @@
             </div>
         </div>
 
+        <!--
         <div class="tab-content" id="medical-records">
             <div class="text">Medical Records Content</div>
         </div>
@@ -205,6 +208,7 @@
         <div class="tab-content" id="doctor-prescriptions">
             <div class="text">Doctor Prescriptions Content</div>
         </div>
+        -->
     </section>
 
     <script src="script.js"></script>

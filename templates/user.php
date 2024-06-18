@@ -61,7 +61,6 @@
                     <input type="text" name="username" placeholder="Username" class="input-box" required>
                     <div class = "login-element">Password<br>
                     <input type="password" name="password" placeholder="Password" class="input-box" required><br>
-                    <a href="#" class="forgot-password">Forgot Password?</a>
                     </div>
                     <button type="submit" class="login-button">Login</button>
                 </form>
