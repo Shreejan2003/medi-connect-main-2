@@ -77,21 +77,6 @@
                         </a>
                     </li>
 
-                    <!--
-                    <li class="nav-link" data-tab="medical-records">
-                        <a href="#">
-                            <i class="bx bx-pie-chart-alt icon"></i>
-                            <span class="text nav-text">???</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link" data-tab="doctor-prescriptions">
-                        <a href="#">
-                            <i class="bx bx-heart icon"></i>
-                            <span class="text nav-text">???</span>
-                        </a>
-                    </li>
-                    -->
                 </ul>
             </div>
 
@@ -135,8 +120,6 @@
                             mysqli_close($conn);
                             ?>
                         </select>
-                        <label for="profile_picture" class="upload-label">Upload Profile Picture</label>
-                        <input type="file" name="profile_picture" id="profile_picture" class="input-box">
                         <button type="submit" class="add-button">Add Doctor</button>
                     </form>
                 </section>
@@ -199,16 +182,6 @@
                 </section>
             </div>
         </div>
-
-        <!--
-        <div class="tab-content" id="medical-records">
-            <div class="text">Medical Records Content</div>
-        </div>
-
-        <div class="tab-content" id="doctor-prescriptions">
-            <div class="text">Doctor Prescriptions Content</div>
-        </div>
-        -->
     </section>
 
     <script src="script.js"></script>

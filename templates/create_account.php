@@ -57,7 +57,7 @@
                     <input type="text" name="phone" placeholder="Phone" class="input-box" required>
                     <input type="text" name="blood_type" placeholder="Blood Type (e.g., O+, A+)" class="input-box" required>
                     <textarea name="medical_problem" placeholder="Medical History" class="input-box" rows="3"></textarea>
-                    <label for="profile_picture" class="upload-label">Upload Profile Picture</label>
+                    <!-- <label for="profile_picture" class="upload-label">Upload Profile Picture</label> -->
                     <input type="file" name="profile_picture" id="profile_picture" class="input-box">
                     <button type="submit" class="create-account-button">Create Account</button>
                 </form>

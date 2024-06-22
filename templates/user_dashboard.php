@@ -158,11 +158,13 @@
                                 echo "<table>";
                                 echo "<tr><th>Doctor</th><th>Specialty</th><th>Date</th><th>Day</th><th>Problem</th><th>Status</th><th>Doctor Comment</th><th>Report</th></tr>";
                                 while ($appointmentRow = $appointmentResult->fetch_assoc()) {
+                                    $timestamp = strtotime($appointmentRow['date']);
+                                    $dayz = date('l', $timestamp);
                                     echo "<tr>";
                                     echo "<td>" . $appointmentRow['doctor_name'] . "</td>";
                                     echo "<td>" . $appointmentRow['specialty'] . "</td>";
                                     echo "<td>" . $appointmentRow['date'] . "</td>";
-                                    echo "<td>" . $appointmentRow['day_of_week'] . "</td>";
+                                    echo "<td>" . $dayz . "</td>";
                                     echo "<td>" . $appointmentRow['problem'] . "</td>";
                                     if ($appointmentRow['status'] == 'Accepted') {
                                         echo "<td style='color: green;'>" . $appointmentRow['status'] . "</td>";
