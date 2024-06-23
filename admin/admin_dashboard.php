@@ -153,11 +153,6 @@
                                 echo "<div class='doctor-list'>";
                             }
                             echo "<div class='doctor-card'>";
-                            if (!empty($row['profile_picture'])) {
-                                echo "<img src='" . $row['profile_picture'] . "' alt='Profile Picture' class='doctor-picture'>";
-                            } else {
-                                echo "<img src='default_profile.png' alt='Default Profile Picture' class='doctor-picture'>";
-                            }
                             echo "<div class='doctor-info'>";
                             echo "<p><strong>Name:</strong> " . $row['name'] . "</p>";
                             echo "<p><strong>Specialty:</strong> " . $row['specialty'] . "</p>";

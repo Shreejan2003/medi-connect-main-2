@@ -34,7 +34,6 @@
             <div class="image-section">
              <img src="/medi-connect-main-2/doc-paitient.png"></img>
 
-                <!-- This section can contain a background image or promotional content -->
             </div>
              <div class = horiz_line>
             

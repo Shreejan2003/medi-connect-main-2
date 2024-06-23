@@ -76,22 +76,6 @@
                             <span class="text nav-text">Appointment</span>
                         </a>
                     </li>
-
-                    <!--
-                    <li class="nav-link" data-tab="medical-records">
-                        <a href="#">
-                            <i class="bx bx-pie-chart-alt icon"></i>
-                            <span class="text nav-text">???</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link" data-tab="doctor-prescriptions">
-                        <a href="#">
-                            <i class="bx bx-heart icon"></i>
-                            <span class="text nav-text">???</span>
-                        </a>
-                    </li>
-                    -->
                 </ul>
             </div>
 
@@ -170,10 +154,12 @@
                 echo "<table>";
                 echo "<tr><th>Patient</th><th>Date</th><th>Day</th><th>Problem</th><th>Status</th><th>Action</th></tr>";
                 while ($appointmentRow = $appointmentResult->fetch_assoc()) {
+                    $timestamp = strtotime($appointmentRow['date']);
+                                    $dayz = date('l', $timestamp);
                     echo "<tr>";
                     echo "<td>" . $appointmentRow['first_name'] . " " . $appointmentRow['last_name'] . "</td>";
                     echo "<td>" . $appointmentRow['date'] . "</td>";
-                    echo "<td>" . $appointmentRow['day_of_week'] . "</td>";
+                    echo "<td>" . $dayz . "</td>";
                     echo "<td>" . $appointmentRow['problem'] . "</td>";
                     echo "<td>" . $appointmentRow['status'] . "</td>";
                     echo "<td>";
@@ -205,18 +191,6 @@
                 </section>
             </div>
         </div>
-
-        <!--
-        <div class="tab-content" id="medical-records">
-            <div class="text">Medical Records Content</div>
-        </div>
-        -->
-
-        <!--
-        <div class="tab-content" id="doctor-prescriptions">
-            <div class="text">Doctor Prescriptions Content</div>
-        </div>
-        -->
     </section>
 
     <script src="/medi-connect-main-2/js/script.js"></script>

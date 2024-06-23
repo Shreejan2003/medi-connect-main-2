@@ -54,14 +54,6 @@
                         </a>
                     </li>
 
-                    <!--
-                    <li class="nav-link" data-tab="doctor-prescriptions">
-                        <a href="#">
-                            <i class="bx bx-heart icon"></i>
-                            <span class="text nav-text">Doctor Prescriptions</span>
-                        </a>
-                    </li>
-                    -->
                 </ul>
             </div>
 
@@ -117,12 +109,6 @@
                     echo "<br>";
                     echo $row['address'];
                     echo "</div>";
-                    // // if (!empty($row['profile_picture'])) {
-                    // //     echo "<img src='/medi-connect-main-2/main-logo.png'>";
-                    // // } else {
-                    //      echo "<img class = 'pfp' src='/medi-connect-main-2/pfp/pfp.png'>";
-                    // //}
-                    // echo "<p><strong>Full Name:</strong> " . $row['first_name'] . " " . $row['last_name'] . "</p>";
                     echo"<div class = 'profile-info'>";
                     echo "<p><strong>Email:</strong> " . $row['email'] . "</p>";
                     echo "<p><strong>Phone:</strong> " . $row['phone'] . "</p>";
@@ -212,16 +198,6 @@
                             echo "</select>";
                             echo "<label for='date'>Select Date:</label>";
                             echo "<input type='date' name='date' required>";
-                            // echo "<label for='day_of_week'>Day of the Week:</label>";
-                            // echo "<select name='day_of_week' required>";
-                            // echo "<option value='Monday'>Monday</option>";
-                            // echo "<option value='Tuesday'>Tuesday</option>";
-                            // echo "<option value='Wednesday'>Wednesday</option>";
-                            // echo "<option value='Thursday'>Thursday</option>";
-                            // echo "<option value='Friday'>Friday</option>";
-                            // echo "<option value='Saturday'>Saturday</option>";
-                            // echo "<option value='Sunday'>Sunday</option>";
-                            // echo "</select>";
                             echo "<br><br>";
                             echo "<label for='problem'>Describe your problem:</label>";
                             echo "<textarea name='problem' rows='4' required></textarea>";
@@ -232,11 +208,6 @@
             </div>
         </div>
 
-        <!--
-        <div class="tab-content" id="doctor-prescriptions">
-            <div class="text">Doctor Prescriptions Content</div>
-        </div>
-        -->
 
     </section>
 

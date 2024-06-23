@@ -22,18 +22,6 @@ $phone = $_POST['phone'];
 $blood_type = $_POST['blood_type'];
 $medical_problem = $_POST['medical_problem'];
 
-// Handle file upload
-// $profile_picture = "";
-// if (isset($_FILES['profile_picture']) && $_FILES['profile_picture']['error'] == 0) {
-//     $target_dir = "uploads/";
-//     $target_file = $target_dir . basename($_FILES["profile_picture"]["name"]);
-//     if (move_uploaded_file($_FILES["profile_picture"]["tmp_name"], $target_file)) {
-//         $profile_picture = $target_file;
-//     } else {
-//         echo "Error uploading profile picture.";
-//     }
-// }
-
 $sql = "INSERT INTO patients (username, password, email, first_name, last_name, date_of_birth, address, phone, blood_type, medical_problem)
         VALUES ('$user', '$pass', '$email', '$first_name', '$last_name', '$date_of_birth', '$address', '$phone', '$blood_type', '$medical_problem')";
 
